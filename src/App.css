@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+}
+
+.app {
+	background-color: #f3f3f3;
+}
+
+.app__login {
+	display: flex;
+	flex-direction: column;
+	height: 250px;
+	justify-content: center;
+	padding: 20px;
+	background-color: white;
+	border: 1px solid lightgray;
+}
+
+.app__loginHome {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 20px;
+	background-color: white;
+	border: 1px solid lightgray;
+}
+
+.app__upload {
+	/* position: fixed; */
+	margin: 0px auto;
+	bottom: 0;
+	max-width: 620px;
+	background-color: white;
+	border: 1px solid lightgray;
+	text-align: center;
+	padding: 20px 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+}
+
+.app__headerImage {
+	object-fit: contain;
+	max-height: 30px;
+}
+
+.app__headerRight {
+	display: flex;
+	align-items: center;
+}
+
+.app__headerRight > p {
+	margin-right: 5px;
+}
+
+.app__headerAvatar {
+	height: 30px !important;
+	width: 30px !important;
+}
+
+.app__header {
+	position: sticky;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	z-index: 1;
+	padding: 10px;
+	background-color: #ffffff;
+	border-bottom: 1px solid lightgray;
+	margin-bottom: 10px;
+}
+
+.app__posts {
+	padding: 10px 0px;
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+.app__postsRight {
+	margin-left: 10px;
+}
